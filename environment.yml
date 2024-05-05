@@ -1,0 +1,19 @@
+name: SINDy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - chardet
+  - jupyterlab 
+  - plotnine
+  - python=3.10.4
+  - pytorch
+  - numpy
+  - pandas
+  - pyyaml
+  - scipy
+  - pip
+  - scikit-learn
+  - pip:
+    - pysindy
+    - neuromancer
